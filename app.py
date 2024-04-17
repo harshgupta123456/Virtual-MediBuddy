@@ -66,7 +66,7 @@ model = genai.GenerativeModel(model_name="gemini-1.0-pro-vision-latest",
 st.set_page_config(page_title="VitalImage Analytics", page_icon=":robot: ")
 
 #set the title
-st.title("👩🏻‍⚕️Vital❤️Image📷Analytics📊👨🏻‍⚕️")
+st.title("👩🏻‍⚕️❤️Medi Buddy 📊👨🏻‍⚕️")
 
 #set the subheader
 st.subheader("An application that can help users to identify medical images")
