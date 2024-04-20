@@ -52,7 +52,7 @@ Important Notes:
 4.Your insights are invaluable in guiding clinical decisions.Please proceed with the analysis,adhering to the structured approach outlined above.
 
 
-Please provide me an output response with these 4 headings:.Detailed Analysis,Findings Report,Recommendation and Next Steps,Treatment Suggestions
+Please provide me an output response with these 5 headings:.Detailed Analysis,Findings Report,Recommendation and Next Steps,Treatment Suggestions,Disclaimer
 """
 
 #model configuration
@@ -63,13 +63,13 @@ model = genai.GenerativeModel(model_name="gemini-1.0-pro-vision-latest",
 
 
 #setting page config
-st.set_page_config(page_title="VitalImage Analytics", page_icon=":robot: ")
+st.set_page_config(page_title="Medi Buddy", page_icon=":robot: ")
 
 #set the title
 st.title("👩🏻‍⚕️❤️Medi Buddy 📊👨🏻‍⚕️")
 
 #set the subheader
-st.subheader("An application that can help users to identify medical images")
+st.subheader("An application that  help users to identify medical diseases based on images")
 
 with st.sidebar:
    st.title("Upload Image")
