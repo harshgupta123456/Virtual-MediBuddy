@@ -63,7 +63,7 @@ model = genai.GenerativeModel(model_name="gemini-1.0-pro-vision-latest",
 
 
 #setting page config
-st.set_page_config(page_title="Medi Buddy", page_icon=":robot: ")
+st.set_page_config(page_title="Medi Buddy", page_icon="🤖 ")
 
 #set the title
 st.title("👩🏻‍⚕️❤️Medi Buddy 📊👨🏻‍⚕️")
